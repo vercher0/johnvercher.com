@@ -61,6 +61,6 @@ Cloudflare Pages can deploy this repository directly as a static site.
 ## Items To Confirm
 
 - Final campaign committee name for the footer disclaimer.
-- Final campaign email, Facebook URL, and any volunteer or donation links.
+- Final volunteer or donation links.
 - Whether the contact form should stay as `mailto:` or connect to a static-compatible form service or Cloudflare Worker.
 - Final photo filenames and alt text once real image assets are added.
