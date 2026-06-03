@@ -2,6 +2,8 @@
 
 This is the public source for `johnvercher.com`, the static campaign website for John Vercher for Mason City Council in Mason, Michigan.
 
+Official campaign website for John Vercher, candidate for Mason City Council. Built as a simple, transparent, and publicly accessible platform to share priorities, positions, community involvement, and campaign information.
+
 ## Overview
 
 - Plain HTML, CSS, and minimal vanilla JavaScript.
