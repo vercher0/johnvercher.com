@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact | John Vercher for Mason City Council</title>
+    <meta name="description" content="Contact John Vercher's campaign for Mason City Council. Share a concern, question, idea, or volunteer interest.">
+    <meta property="og:title" content="Contact John Vercher for Mason City Council">
+    <meta property="og:description" content="This campaign is about listening. Share a concern, question, or idea for Mason.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://johnvercher.com/assets/images/hero/welcome-to-mason-hero.jpg">
+    <link rel="canonical" href="https://johnvercher.com/contact.html">
+    <link rel="stylesheet" href="/css/brand.css?v=20260602b">
+    <link rel="stylesheet" href="/css/base.css?v=20260602b">
+    <script src="/js/main.js?v=20260602" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="John Vercher for Mason City Council home"><span class="brand-mark" aria-hidden="true">JV</span><span class="brand-text"><strong>John Vercher</strong><small>for Mason City Council</small></span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span class="nav-toggle-bars" aria-hidden="true"></span><span class="sr-only">Menu</span></button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary navigation"><a href="/">Home</a><a href="/about.html">About</a><a href="/priorities.html">Priorities</a><a href="/community.html">Community</a><a aria-current="page" href="/contact.html">Contact</a></nav>
+    </header>
+
+    <main id="main">
+      <section class="page-hero page-hero-image">
+        <div class="container narrow">
+          <p class="eyebrow">Contact</p>
+          <h1>This campaign is about listening.</h1>
+          <p class="page-lede">If you have a concern, question, or idea for Mason, I would like to hear from you.</p>
+        </div>
+      </section>
+
+      <section class="section section-light">
+        <div class="container contact-layout">
+          <aside class="contact-panel" aria-label="Campaign contact details">
+            <h2>Reach the campaign</h2>
+            <p>Email: <a href="mailto:campaign@johnvercher.com">campaign@johnvercher.com</a></p>
+            <p>Facebook: <a href="#" aria-label="Facebook link placeholder">Facebook link placeholder</a></p>
+            <p>Volunteer: <a href="#contact-form">Use the form to share your interest</a></p>
+          </aside>
+
+          <form id="contact-form" class="contact-form" action="mailto:campaign@johnvercher.com" method="post" enctype="text/plain">
+            <!-- For Cloudflare Pages, this UI can later be wired to a static-compatible form provider or a Cloudflare Worker. -->
+            <label for="name">Name</label>
+            <input id="name" name="name" autocomplete="name" required>
+
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required>
+
+            <label for="topic">Topic</label>
+            <select id="topic" name="topic">
+              <option>Share a concern or idea</option>
+              <option>Volunteer interest</option>
+              <option>Request a conversation</option>
+              <option>Media or campaign question</option>
+            </select>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="7" required></textarea>
+
+            <button class="button button-primary" type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div><strong>John Vercher for Mason City Council</strong><span>Mason, Michigan</span><span>Paid for by [placeholder campaign committee name]</span></div>
+      <nav aria-label="Footer navigation"><a href="/">Home</a><a href="/about.html">About</a><a href="/priorities.html">Priorities</a><a href="/community.html">Community</a><a href="/contact.html">Contact</a></nav>
+    </footer>
+  </body>
+</html>
